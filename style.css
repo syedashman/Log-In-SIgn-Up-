@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(245, 239, 192);
+    font-size: 17px;
+    font-family: "Domine", serif;
+}
+.navbar{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    padding: 10px 0;
+    /* padding-right: 150px; */
+    background-color: black;
+    
+}
+
+.navbar-list{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+}
+.navbar-item{
+    margin: 0 15px;
+}
+.navbar-item a{
+    text-decoration: none;
+    color: rgb(216, 205, 0);
+    padding: 6px 10px;
+    
+}
+.navbar-item a:hover{
+    color: rgb(254, 254, 254);
+    background-color: rgb(26, 22, 22);
+    
+}
+.signup-box{
+    width: 360px;
+    height: 560px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+}
+.login-box{
+    width: 360px;
+    height: 350px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h3{
+    text-align: center;
+    padding-top: 15px;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family:"Domine", serif;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    outline: none;
+}
+input[type="button"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    color: rgb(216, 205, 0);
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 18px;
+    font-family:"Domine", serif;
+}
+input[type="button"]:hover{
+    background-color:rgb(10, 8, 8);
+    color: #AA6C39;
+    border-radius: 9px;
+}
+input[type="checkbox"]{
+    width: 20px;
+    height: 25px;
+    margin-top: 10px;
+    border: none;
+    accent-color: rgb(216, 205, 0);
+    cursor: pointer;
+}
+input[type="checkbox"]:hover{
+    accent-color: #AA6C39;
+    background-color: black;
+
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: "Domine", serif;;
+}
+p a{
+   color:rgb(216, 205, 0) ;
+}
+p a:hover{
+    color: #AA6C39;
+}
+
+.para-2{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+.para-2 a{
+    color: rgb(216, 205, 0);
+}
+.label{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-family:  "Domine", serif;
+    
+}
+
+.label a{
+    color:rgb(216, 205, 0);
+    font-size: 15px;
+    font-family:  "Domine", serif;;
+
+}
+.label a:hover{
+    text-align: center;
+    font-size: 15px;
+    color:#AA6C39
+}
+.left{
+    margin-right: 200px;
+    margin-left: -400px;
+}
+img{
+    width: 140px; 
+    padding: 0px;
+    margin: -20px;
+    margin-left: -180px;
+}
+.right{
+    margin-left: 115px;
+    margin-right: -540px;
+}
+.navbar-img{
+    width: 50px;
+    padding: px;
+    margin: 0px;
+    margin-left: 30px;
+    padding-right: -200px;
+}
+
+
